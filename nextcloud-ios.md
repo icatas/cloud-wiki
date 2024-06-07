@@ -34,24 +34,25 @@ Im Englischen würde die Kette wie folgt aussehen: `Settings`>`Contacts`>`Accoun
 
 <img src="ios_CardDav_Konto.png" alt="CardDav Konto Hinzufügen" height="400">
 
-Hier wird unter `Server` der vorher kopiert und mit dem Messanger an das Handy geschickte Link aus der Nextcloud eingefügt.
+Hier wird unter `Server` der vorher kopierte und mit dem Messanger an das Handy geschickte Link aus der Nextcloud eingefügt.
 Unter `Benutzername` und `Passwort` werden die bekannten Einlogdaten zur Nextcloud eingegeben.
 Für die `Beschreibung` kann z.B. `Kontakte Nextcloud Icatas` gewählt werden, das bleibt aber dir überlassen.
+Anschlißenden wird mit einem Klick auf Weiter bestätigt
 
 Nun sollten in der `Kontakte App` das hinzugefügte Adressbuch sichtbar sein.
 Probiere es am besten gleich mal aus und füge einen neuen Kontakt hinzu. Dieser sollte, nach kurzem warten, dann über die [Webseite der Nextcloud](https://cloud.icatas.eu) im Tab `Kontakte` erscheinen.  
 
 ## Passwortmanager - Passwörter mit KeePass synchronisieren
-Ein großen Problem der Digitalen Welt ist es, dass wir immer mehr Konten mit unterschiedlichen Passwörtern haben.
-Eine hervorragende Lösung dabei nicht den Überblick zu verlieren und dabei eine große Sicherheit zu gewährleisten, ist ein lokaler Passwortmanager.
-Ein solcher Passwortmanager ist KeePassXC. Für weitere Informationen zu sicheren Passwörtern und zu KeePass schaue in unseren Wikieintrag [LINK].
-
-Unter IOS lässt sich KeePass am besten mit der App [KeePassium](https://apps.apple.com/us/app/keepassium-keepass-passwords/id1435127111) nutzen.
+Ein großes Problem der digitalen Welt ist es, dass wir immer mehr Konten mit unterschiedlichen Passwörtern haben.
+Eine hervorragende Lösung dabei nicht den Überblick zu verlieren und zusätzlich eine große Sicherheit zu gewährleisten, ist ein lokaler Passwortmanager.
+Ein solcher Passwortmanager ist KeePassXC. Für weitere Informationen zu sicheren Passwörtern und zu KeePass schaue in unseren [Wikieintrag](keepass.md).
 
 <img src="ios_keepassium_app.png" alt="Keepassium im AppStore" height="400">
 
+Unter iOS ist die Verwendung von KeePass am besten mit der App [KeePassium](https://apps.apple.com/us/app/keepassium-keepass-passwords/id1435127111) möglich, die im App Store heruntergeladen wird.
+
 ### Du besitzt noch keine KeePass Datei
-Siehe dir in unser [Anleitung]() **TODO: Link Hinzufügen** an wie du dir KeePass zusammen mit der Nextcloud einrichtest.
+Siehe dir in unser [Anleitung](keepass.md) an wie du dir KeePass zusammen mit der Nextcloud einrichtest.
 Hast du dies bereits erledigt, kannst du im nächsten Abschnitt weiter machen.
 
 ### Du besitzt bereits eine KeePass Datei
