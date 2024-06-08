@@ -37,7 +37,7 @@ Im Englischen würde die Kette wie folgt aussehen: `Settings`>`Contacts`>`Accoun
 Hier wird unter `Server` der vorher kopierte und mit dem Messanger an das Handy geschickte Link aus der Nextcloud eingefügt.
 Unter `Benutzername` und `Passwort` werden die bekannten Einlogdaten zur Nextcloud eingegeben.
 Für die `Beschreibung` kann z.B. `Kontakte Nextcloud Icatas` gewählt werden, das bleibt aber dir überlassen.
-Anschlißenden wird mit einem klick über `weiter` bestätigt.
+Anschlißenden wird mit einem Klick auf `weiter` bestätigt.
 
 Nun sollten in der `Kontakte App` das hinzugefügte Adressbuch sichtbar sein.
 Probiere es am besten gleich mal aus und füge einen neuen Kontakt hinzu. Dieser sollte, nach kurzem warten, dann über die [Webseite der Nextcloud](https://cloud.icatas.eu) im Tab `Kontakte` erscheinen.  
