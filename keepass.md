@@ -2,7 +2,7 @@
 Um ohne weiter erklärungen zum Einrichten zu kommen gehe in den Abschnitt [Installation](#Installation)
 
 ## Installation - Windows
-Um KeePass unter Windows zu installierne gehe auf die offiziele [Webseite von KeePassXC in den Bereich Donloads](https://keepassxc.org/download/#windows) und lade dir dort das Installations Programm für Windows herunter.
+Um KeePass unter Windows zu installierne gehe auf die offiziele [Webseite von KeePassXC in den Bereich Downloads](https://keepassxc.org/download/#windows) und lade dir dort das Installations Programm für Windows herunter.
 1. Sobald der Download abgeschlossen ist, starte die heruntergeladene Datei. Nun sollte sich ein Installer Fenster öffnen.
 2. Im ersten Fenster wirst du gefragt, ob du die Lizenz akzeptierst.
 KeePassXC ist **freie Software**, das bedeutet das mit dieser Lizenz dem Nutzer bestimmte Rechte zugesichert werden und du volle Kontrolle über das Programm hast. Im Gegensatz zu den meisten anderen Programmen die viel genutzt werden.
