@@ -29,9 +29,9 @@ indem du auf den Installieren Button klickst.
 
  - Öffne die App und klicke auf "Anmelden". Es erscheint ein Eingabefeld. Gib hier
 die folgende Adresse ein um dich bei der Icatas Cloud anzumelden:
-
-		`https://cloud.icatas.eu`
-
+```
+https://cloud.icatas.eu
+```
  - Klicke auf den Pfeil am rechten Ende des Eingabefeldes um zum nächsten Schritt
  zu gelangen.
 
