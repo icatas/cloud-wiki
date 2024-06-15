@@ -39,7 +39,7 @@ die folgende Adresse ein um dich bei der Icatas Cloud anzumelden:
  - Klicke auf den Pfeil am rechten Ende des Eingabefeldes um zum nächsten Schritt
  zu gelangen.
 			
-	<br \>
+	<br />
 	<center>
 	<img src="screenshots/nc_android_01.png" alt="Nextcloud im PlayStore" height="400">
 	<img src="screenshots/nc_android_02.png" alt="Wilkommensseite der App" height="400">
@@ -55,7 +55,7 @@ du auch bei der Anmeldung über den Browser am Computer verwendest. Beachte, das
 dein Benutzername hier i.d.R. keine E-Mail Adresse ist. Falls du deinen Nutzernamen
 und / oder dein Passwort vergessen hast melde dich  .....
 
-	<br \>
+	<br />
 	<center>
 	<img src="screenshots/nc_android_04.png" alt="Sicherheitswarnung" height="400">
 	<img src="screenshots/nc_android_05.png" alt="Eingabemaske persönliche Anmeldedaten" height="400">
@@ -86,7 +86,7 @@ oberen Bildschirmrand (vgl. Abb 2.1 links).
 
 2. Tippe auf "Einstellungen" (ggf. nach oben Wischen, vgl. Abb. 2.1, mitte)
 
-	<br \>
+	<br />
 	<center>
 	<img src="screenshots/nc_android_08.png" alt="Position Hamburg Menü" height="400">
 	<img src="screenshots/nc_android_09.png" alt="Position Button "Einstellungen"" height="400">
