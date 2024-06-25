@@ -1,164 +1,270 @@
-# Einbindung Nextclouddienste auf Android
+# Einbindung Nextclouddineste auf Android
 
-## Inhalt: 
+## Inhalt
 
-Diser Guide beschreibt wie sich die folgenden Dienste der Nextcloud unter Android nutzen lassen:
+Dieser Guide bechreibt, wie sich die folgenden Dienste der Nextcloud unter Android nutzen lassen:
 
-```
-1. Zugriff NC Dateien in der Nextcloud
-2. Einrichten des automatischen Fotouploads
-3. NC Kontakte mit dem Android syncronsieren
-4. NC Kalender mit Android syncronsieren
-```
+1. Zugriff auf Dateien
+2. Automatischer Fotoupload
+3. Kalender und Kontakte (Adressebücher)
+
+## 1. Zugriff auf Dateien: Installation und Einrichtung der Android Nextcloud App
+
+Einen Zugriff auf die Dateien (Files) aus der Nextcloud ermöglicht die Nextcloud App für Android.
+
+1. Herunterladen und Installieren:
+
+	Lade die Nextcloud App aus dem Google Playstore herunter und installiere sie, indem du auf den
+	*Installieren* Button tippst (Abb. 1.1 links): 
+
+	https://play.google.com/store/apps/details?id=com.nextcloud.client
+
+2. Serveradresse eingeben:
+
+	Öffne die App und tippe auf *Anmelden*. Um dich mit der Icatas Nextcloud zu verbinden gibt die
+	folgende Serveradresse ein (Abb. 1.1 mitte/rechts):
+
+	https://cloud.icatas.eu
+
+	Klicke auf den Pfeil am rechten Rand des Eingabefeldes um zum nächsten Schritt zu gelangen.
+
+	<br />
+	<center>
+	<img src="screenshots/nc_android_01.png" alt="" height="400">
+	<img src="screenshots/nc_android_02.png" alt="" height="400">
+	<img src="screenshots/nc_android_03.png" alt="" height="400">
+	<p>**Abbildung 1.1**</p>
+	</center>
+	<br />
+
+3. Anmelden:
+
+	Es erscheint eine Sicherheitswarnung. Hier auf *Anmelden* tippen (Abb. 1.2 links).
+
+	In der erscheinden Anmeldemaske müssen die persönlichen Anmeldedaten eingetragen werden, (Abb. 1.2
+	mitte), die auch für die Anmeldung im Browser benötigt werden. Bei unekanntem Nutzernamen
+	oder vergessenem Passwort kontaktiere einen Adminstrator.
+
+	<br />
+	<center>
+	<img src="screenshots/nc_android_04.png" alt="" height="400">
+	<img src="screenshots/nc_android_05.png" alt="" height="400">
+	<img src="screenshots/nc_android_06.png" alt="" height="400">
+	<p>**Abbildung 1.2**</p>
+	</center>
+	<br />
+
+	Bei erfolgreichem Log-In erscheit ein weiteres Fenster (Abb. 1.2 rechts). Tippe hier auf *Grand
+	Access* um der App auf deinem Android Gerät dauerhaften Zugriff auf deine Nextcloud Dateien zu geben.
+
+4. Öffnen der App
+
+	Bei erneutem Öffnen der App wird nun der Filebrowser mit deinen Daten aus der Nextcloud gezeigt.
+	Beachte, dass die Daten, sofern nicht schon anders eingestellt, virtuell vorhanden sind und erst
+	beim Öffnen heruntergeladen werden.
 
 
-## 1. Dateien: Installation und Einrichtung der Android Nextcloud Client App
+## 2. Automatischer Fotoupload: Mit Nextcloud App Bilder automatisch in Cloud sichern
 
-Zugriff auf die Dateien ("Files") aus der Nextcloud ist über die den Nextcloud Android Client möglich.
+Die Nextcloud Android App ermöglicht einen automatischen Upload von Fotos in einen Order in der Cloud.
+Die Installation und Einrichtung der App wird unter 1. beschrieben. Wenn die App auf deinem Gerät
+istalliert ist, gehe wie folgt vor:
+
+1. Öffne die Nextcloud Android App und tippe auf das Hamburger Menü am oberen Bildschirmrand (Abb.
+2.1 links).
+
+2. Tippe auf *Einstellungen* (ggf. nach oben wischen, Abb. 2.1 mitte).
+
+3. Tippe auf *Automatisches Hochladen*. Der Punkt ist unter der kleinen blauen Überschrift *Mehr* zu
+finden (Abb. 2.1 rechts). 
+
+	<br />
+	<center>
+	<img src="screenshots/nc_android_07.png" alt="" height="400">
+	<img src="screenshots/nc_android_09.png" alt="" height="400">
+	<img src="screenshots/nc_android_10.png" alt="" height="400">
+	<p>**Abbildung 2.1**</p>
+	</center>
+	<br />
+
+4. Hier kannst du nun den Ordner auswählen, der von deiner Kanera verwendet wird. In diesem Fall ist es
+der Ordner *Camera*, auf einem anderen Gerät kann dieser Ordner aber auch einen anderen Namen haben.
+Klicke zum Einrichten auf die drei Punkte (Abb. 2.2 links) und im aufploppenden Menü auf *Einrichten* 
+(Abb. 2.2 mitte).
 
 
-Voraussetzungen:
+	<br />
+	<center>
+	<img src="screenshots/nc_android_11.png" alt="Position Drei Punkte" height="400">
+	<img src="screenshots/nc_android_12.png" alt="Position 'Einrichten'" height="400">
+	<p>**Abbildung 2.2**</p>
+	</center>
+	<br/>
 
-	- Android Version ..
-	- Stabile Internet Verbindung (am besten WLAN)
+5. Im erscheinenden Pop-Up Fenster zunächst den Automatischen Upload durch tippen auf den Schalter
+oben rechts aktivieren (grau = Ausgeschaltet, blau = Eingeschaltet, vgl. Abb. 2.3)
 
-1. Installieren der Nextcloud Android App
 
- - Lade die Nextcloud App über den Google Playstore herunter und installiere sie
-indem du auf den Installieren Button klickst (Abb. 1.1 links)
+	<br />
+	<center>
+	<img src="screenshots/nc_android_13.png" alt="Menü 'Automatisch Hochladen'" height="400">
+	<img src="screenshots/nc_android_14.png" alt="Menü 'Automatisch Hochladen'" height="400">
+	<p>**Abbildung 2.3**</p>
+	</center>
+	<br/>
 
-		https://play.google.com/store/apps/details?id=com.nextcloud.client
+6. Nun können die weiteren Einstellungen getroffen werden. Hier eine Erklärungen:
 
-2. Anmelden
+	- *Remote-Ordner*: Hier kann der Ziel Ordner in der Cloud festgelegt werden (nicht der Ordner
+	auf deinem Gerät), in dem die Fotos gespeichert werden.
+	- *Unterordner benutzen*: Wenn du diesen Haken setzt, werden die Bilder im zuvor ausgewählten Ordner
+	in Unterordnern nach Jahren abgelegt. Wird der Haken gesetzt kann auch noch eine monatsweise
+	Speicherung ausgewählt werden.
 
- - Öffne die App und klicke auf "Anmelden". Es erscheint ein Eingabefeld. Gib hier
-die folgende Adresse ein um dich bei der Icatas Cloud anzumelden:
+7. Anschließend auf *Speichern* tippen um den Upload zu aktivieren. Ggf. erhälst du ein Pop-Up
+*Batterie-Optimierung*. Hier auf *Deaktivieren* klicken um die Funktion des Uploads zu gewährleisten.
+Dies nimmt die Nextcloud App und die mit dem Upload verbunden Hintergrundprozesse von den
+Maßnahmen der Batterie Optimierung aus.
+
+
+## 3. Kalender und Kontakte: Installieren und Einrichten des CalDAV / CardDAV Android Clients
+
+Die in der Nextcloud angelegten Kalender und Adressbücher lassen sich mit Hilfe des Protokolls
+*Cal-* bzw. *CardDAV* auch auf einem Android Gerät verwenden (lesend/schreibend). Dafür wird ein CalDAV Client
+benötigt.
+
+1. Installiere den Android CalDAV Client *DAVx⁵ - CalDAV CardDAV WebDAV* des Entwicklern bitfire web 
+	engineering herunter. Diese kann entweder 
+
+	- kostenpflichtig über den Google Play Store (Abb. 3.1 links)
+	- kostenfrei über den freien Android App Store F-Droid (Abb. 3.1 rechts)
 	
-	**https://cloud.icatas.eu**
-
- - Klicke auf den Pfeil am rechten Ende des Eingabefeldes um zum nächsten Schritt
- zu gelangen.
-			
-	<br />
-	<center>
-	<img src="screenshots/nc_android_01.png" alt="Nextcloud im PlayStore" height="400">
-	<img src="screenshots/nc_android_02.png" alt="Wilkommensseite der App" height="400">
-	<img src="screenshots/nc_android_03.png" alt="Eingabemaske Serveradresse" height="400">
-	<p> **Abbildung 1.1:** links: App im Google Playstore, mitte/rechts: Ersten Schritte nach erstem Öffnen der App.
-	</center>
-	<br />
-
-3. Es erscheint eine neue Seite. Hier auf "Anmelden" klicken (vgl. Abb. 1.2 links).
-
-4. In der erscheinenden Anmeldemaske musst du deine Anmeldedaten eingeben (Abb. 1.2, mitte), die
-du auch bei der Anmeldung über den Browser am Computer verwendest. Beachte, dass
-dein Benutzername hier i.d.R. keine E-Mail Adresse ist. Falls du deinen Nutzernamen
-und / oder dein Passwort vergessen hast melde dich  .....
+	heruntergeladen und installiert werden. Hier findest du eine Anleitung wie man F-Droid installiert.
 
 	<br />
 	<center>
-	<img src="screenshots/nc_android_04.png" alt="Sicherheitswarnung" height="400">
-	<img src="screenshots/nc_android_05.png" alt="Eingabemaske persönliche Anmeldedaten" height="400">
-	<img src="screenshots/nc_android_06.png" alt="Grand Access Button" height="400">
-	<p> **Abbildung 1.2:** links: Sicherheitswarnung nach Eingabe der Serveradresse, mitte: Eingabemaske
-		persönliche Anmeldedaten, rechts: Bestätigung des Zugriffs deines Gerätes auf deine Daten
+	<img src="screenshots/nc_android_15.png" alt="" height="400">
+	<img src="screenshots/nc_android_16.png" alt="" height="400">
+	<p>**Abbildung 3.1**</p>
 	</center>
 	<br />
 
-5. Bei erfolgreichem Log-In sollte ein weiteres Fenster erscheinen (Abb. 1.2 rechts). Klicke hier
-auf "Grand  Access" um deinem Android Client den dauerhaften Zugriff auf deine Daten
-zu gestatten.
+2. Nach dem ersten Öffnen der App erscheint ein grüner Bildschirm (Abb. 3.2 links). Tippe auf den 
+kleinen Pfeil unten rechts um mit der Einrichtung zu starten.
 
-6. Nach erfolgreicher Anmeldung erscheint ggf. ein Pop-Up, mit der Auswahlmöglichkeit der App entweder
-den "vollern Zugriff"  oder "Medien Schreibgeschützt" zu wählen.
-
-7. Beim Öffnen der App öffnet sich nun der Filebrowser und die Dateien aus deiner
-Nextcloudablage. 
-
-## 2. Automatischen Fotoupload einrichten
-
-Wenn du möchtest, dass deine Fotos, die du mit dem Smartphone machst, automatisch
-in der Nextcloud gespeichert werden, kannst du die Funktion "Automatisches Hochladen" der Nextcloud
-Client App verwenden. Dazu gehe wie foglt vor:
-
-1. Öffne den Nextcloud Client (die App) und tippe auf das Hamburger Menü am 
-oberen Bildschirmrand (vgl. Abb 2.1 links).
-
-2. Tippe auf "Einstellungen" (ggf. nach oben Wischen, vgl. Abb. 2.1, mitte)
+3. Wahle alle Berechtigungen aus, wenn du Kalender und Kontakte syncronisierne möchtest (vgl. Abb. 3.2
+mitte). Ggf. kann auch nur das Benötige ausgewählt werden. Tippe auf den Pfeil. Hier kann bei
+Bedarf auch die Syncronisierung der Aufgaben (Tasks) aktiviert werden. In diesem Fall beschränken
+wir uns auf Kalender und Adressbücher.
 
 	<br />
 	<center>
-	<img src="screenshots/nc_android_08.png" alt="Position Hamburg Menü" height="400">
-	<img src="screenshots/nc_android_09.png" alt="Position Button "Einstellungen"" height="400">
-	<img src="screenshots/nc_android_10.png" alt="Position Button 'Automatisches Hochladen'" height="400">
-	<p> **Abbildung 2.1:** links: Position Hamburg Menü, mitte: Die Einstellungen sind unten zu finden,
-		rechts: "Automatisches Hochladen" ist unter "Mehr" zu finden.
+	<img src="screenshots/nc_android_17.png" alt="" height="400">
+	<img src="screenshots/nc_android_18.png" alt="" height="400">
+	<img src="screenshots/nc_android_19.png" alt="" height="400">
+	<p>**Abbildung 3.2**</p>
 	</center>
 	<br />
 
-3. Tippe auf "Automatisches Hochladen. Der Punkt ist unter der kleinen blauen 
-Überschrift "Mehr" zu finden (Abb. 2.1, rechts)
+4. Auf der nächsten Seite erscheint ein Pop-Up *Soll die App immer im Hintergrund ausgeführt werden?*.
+Hier zwingend *Zulassen* auswählen (Abb. 3.3 links).
 
-4. Hier kannst du nun den Order auswählen, der von deiner Kamera verwendet wird.
-In diesem Fall ist es der Ordner "Camera" Klicke zum Einrichten auf die drei Punkte
-und im aufploppenden Menü auf "Einrichten".
+5. Auf der folgenden Seite *Regelmäßige Sync-Intervalle* auswählen (Abb. 3.3 mitte).
 
-5. Im erscheinenden Pop-Up Fenster zunächst den Automatischen Upload durch tippen
-auf den Schalter oben rechts.
+	<br />
+	<center>
+	<img src="screenshots/nc_android_20.png" alt="" height="400">
+	<img src="screenshots/nc_android_21.png" alt="" height="400">
+	<img src="screenshots/nc_android_22.png" alt="" height="400">
+	<p>**Abbildung 3.3**</p>
+	</center>
+	<br />
 
-6. Nun können die weiteren Einstellungen getroffen werden. 
+6. Falls du *DAVx⁵* kostenlos nutzt, z.B. über F-Droid, hast auf dieser Seite die Möglichkeit mit
+einer Spende zum weiteren Bestehen des Projektes beizutragen (Abb. 3.3 rechts). 
 
-	- "Remote-Order": Hier kann der Ziel Ordner in der Cloud festgelegt werden, in
-dem die Fotos gespeichert werden
-	- "Nur über gebührenfreies WLAN hochladen": Wenn der Haken gesetz ist, werden
-die Bilder nur bei einer Verbindung mit einem WLAN Netz hochgeladen. Wenn der Upload
-auch über Mobile Daten erfolgen soll, Haken nicht setzen
-	- "Nur während des Ladens der Batterie hochladen": selbsterklärend
-	- "Vorhandene Dateien ebenfalls hochladen" : Wenn du möchteset, dass auch
-alle Bilder hochgeladen werden, die du bereits gemacht hast, Haken setzen
-	- "Unterordner benutzen": Wenn du diesen Haken setzt, werden die Bilder
-entsprechend dem Aufnahmedatum in Order sortiert. Ist der Haken gesetzt, erscheint
-eine weitere Option, über die festgelegt werden kann, ob nur ein Ordner pro Jahr,
-oder weitere Unterordner für jeden Monat oder sogar jeden Tag angelegt werden sollen.
-	- "Originaldatei wird...": Wenn du möchtest, dass die Fotos nur als Sicherheitskopie
-in der Cloud abgelegt werden sollen, kannst du hier "im Orginalordner behalten..." auswählen.
-Alternativ kannst du "in den App-Ordner verschoben" auswählen. Dann liegen die Bilder
-statt im Kamera-Ordner nur noch in der Cloud, der entsprechende Order ist aber "heruntergeladen"
-und offline in deiner Galerie App verfügbar. Wählst du "gelöscht" aus, werden die Daten
-nur in die Cloud hochgeladen und sind nicht ohne weiteres Zutun offline verfügbar, sobald
-der Upload abgeschlossen ist.
-	- "Was tun, wenn die Datei bereits vorhanden ist?": kann auf standard gelassen werden...
+7. Nun öffnet sich der Hauptbildschirm der App. Tippe unten rechts auf *Konto anlegen* (Abb. 3.4 links).
 
-7. Anschließend auf "Speichern" tippen um den Upload zu aktivieren. Ggf. erhälst
-du ein Pop-Up "Batterie-Optimierung". Hier auf "Deaktivieren" klicken um die 
-Funtkion des Autouploads zu gewährleisten.
+8. Wähle unter *Nextcloud* aus und tippe auf *Fortfahren* (Abb. 3.4 mitte).
 
+	<br />
+	<center>
+	<img src="screenshots/nc_android_23.png" alt="" height="400">
+	<img src="screenshots/nc_android_24.png" alt="" height="400">
+	<img src="screenshots/nc_android_25.png" alt="" height="400">
+	<p>**Abbildung 3.4**</p>
+	</center>
+	<br />
 
+9. Es erscheint eine Eingabemaske für eine Serveradresse. Um sich bei der Icatas Nextcloud anzumelden
+tippe die folende Serveradresse ein:
 
+	https://cloud.icatas.eu
 
+	und tppe auf *Anmelden*.
 
+10. Es öffnet sich ein Browser-Fenster. Tippe hier auf Log-In (Abb. 3.5 links) und melde dich mit
+deinen persönlichen Log-In Daten an. Verwende die selben Daten wie zum Anmelden bei der Nextcloud im
+Browser. Gewähre anschließend deinem Android Gerät dauerhaften Zugriff auf dein Nextcloud Konto indem du
+auf den Buttom *Grand access* tippst (Abb. 3.5 mitte).
 
+	<br />
+	<center>
+	<img src="screenshots/nc_android_26.png" alt="" height="400">
+	<img src="screenshots/nc_android_27.png" alt="" height="400">
+	<img src="screenshots/nc_android_28.png" alt="" height="400">
+	<p>**Abbildung 3.5**</p>
+	</center>
+	<br />
 
+11. Wenn die Anmeldung erfolgreich war erscheint *Account connected*. Tippe nun auf as X oben links (
+Abb. 3.5 rechts) um zum Einrichtungsassistenten zurück zu gelangen.
 
+12. Gibt unter *Konto hinzufügen* eine E-Mail Adresse als Nutzernamen ein. Diese E-Mail Adresse mit nicht
+mit deiner Nextcloud verbunden sein. Statt einer E-Mail Adresse 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<br />
+	<center>
+	<img src="screenshots/nc_android_29.png" alt="" height="400">
+	<img src="screenshots/nc_android_30.png" alt="" height="400">
+	<img src="screenshots/nc_android_31.png" alt="" height="400">
+	<p>**Abbildung 3.5**</p>
+	</center>
+	<br />
 
 
-j
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
