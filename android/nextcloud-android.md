@@ -220,22 +220,35 @@ auf den Buttom *Grand access* tippst (Abb. 3.5 mitte).
 11. Wenn die Anmeldung erfolgreich war erscheint *Account connected*. Tippe nun auf as X oben links (
 Abb. 3.5 rechts) um zum Einrichtungsassistenten zurück zu gelangen.
 
-12. Gibt unter *Konto hinzufügen* eine E-Mail Adresse als Nutzernamen ein. Diese E-Mail Adresse mit nicht
-mit deiner Nextcloud verbunden sein. Statt einer E-Mail Adresse 
-
+12. Gibt unter *Konto hinzufügen* eine E-Mail Adresse als Nutzernamen ein. Diese E-Mail Adresse muss nicht
+mit deiner Nextcloud verbunden sein.
 	<br />
 	<center>
 	<img src="screenshots/nc_android_29.png" alt="" height="400">
 	<img src="screenshots/nc_android_30.png" alt="" height="400">
 	<img src="screenshots/nc_android_31.png" alt="" height="400">
-	<p>**Abbildung 3.5**</p>
+	<p>**Abbildung 3.6**</p>
 	</center>
 	<br />
 
+13. Tippe auf *Konto anlegen*. Auf der nächsten Seite kann zwischen den Reitern *CalDAV* und *CardDAV*
+ausgewählt werden (Abb. 3.6 mitte/rechts) und die gewünschten Kalender und Adressebücher können für die 
+Syncronisation ausgewählt werden. Tippe auf *Jetzt syncronisieren*, damit die Kalender und Adressbücher
+in den entsprechenden Kalender und Kontakt Apps verfügbar sind.
 
+	<br />
+	<center>
+	<img src="screenshots/nc_android_33.png" alt="" height="400">
+	<img src="screenshots/nc_android_34.png" alt="" height="400">
+	<p>**Abbildung 3.7**</p>
+	</center>
+	<br />
 
-
-
+14. Wenn alles gekappt hat, sollten die Adressbücher in der Kontaktapp deines Geräts wie in Abb. 3.7
+neben mind. einem weiteren Google-Konto als *DAVx⁵-Adressbuch* unter *Konten* auftauchen. Die Einbindung
+in deine Kalender-App kann je nach App etwas unterschiedlich aussehen. In der hier verwendeten App
+muss die CalDAV Syncronisation noch in den Einstellungen aktiviert werden, ansonsten sollten die
+in Schritt 13 ausgewählten Kalender hier verfügbar sein.
 
 
 
