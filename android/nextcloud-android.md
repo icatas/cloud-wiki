@@ -7,6 +7,7 @@ Dieser Guide bechreibt, wie sich die folgenden Dienste der Nextcloud unter Andro
 1. Zugriff auf Dateien
 2. Automatischer Fotoupload
 3. Kalender und Kontakte (Adressebücher)
+4. Zugriff auf KeePass Datenbank
 
 ## 1. Zugriff auf Dateien: Installation und Einrichtung der Android Nextcloud App
 
@@ -250,6 +251,22 @@ in deine Kalender-App kann je nach App etwas unterschiedlich aussehen. In der hi
 muss die CalDAV Syncronisation noch in den Einstellungen aktiviert werden, ansonsten sollten die
 in Schritt 13 ausgewählten Kalender hier verfügbar sein.
 
+
+
+## 4. Zugriff auf KeePass Datenbank unter Android
+
+Unter Android kann über eine App auf die Keepass Datei in der Nextcloud zugegriffen werden. Dafür muss
+die Nextcloud Client App installiert und eingerichtet werden (Abschnitt 1).
+
+1. Installiere die App KeePass XC.
+
+2. Öffne die Nextcloud App, navigiere in das Verzeichnis deiner KeePass Datei und tippe zum öffnen auf
+die Datei. Es erscheint ein Pop-Up zum Auswählen einer passenden App. Wähle hier die installierte App
+KeePass XC aus. 
+
+3. Du kannst nun auf deine Passwörter zugreifen (auch offline, da die Datei heruntergeladen wird).
+Falls sich deine KeePass Datei ändert, bspw. weil an einem anderen Gerät ein Eintrag hinzugefügt wurde,
+musst du die Datei erneut über die Nextcloud App öffnen, damit die aktuelle Version heruntergeladen wird.
 
 
 
