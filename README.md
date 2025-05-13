@@ -1,9 +1,13 @@
 # Content
+
 - [Nextcloud Installation Windows](missing)
 - [KeePassXC Installation Windows](keepass.md)
-- [Nextcloud IOS full setup](nextcloud-ios.md)
+- [Nextcloud IOS full setup](nextcloud_ios/nextcloud-ios.md)
+- [Nextcloud Android full setup](nextcloud_android/nextcloud-android.md)
+
 
 # Convert to html using Pandoc
+
 After installing Panodc markdown can be converted using
 ```
 pandoc input.md -o output.html
